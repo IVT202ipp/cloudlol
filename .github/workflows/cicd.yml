@@ -1,4 +1,4 @@
-name: Пример непрерывной интеграции
+name: пример непрерывной интеграции
 on: [push]
 jobs:
   testing:
@@ -41,4 +41,4 @@ jobs:
           uses: docker/build-push-action@v5
           with:
             push: true
-            tags: ${{ github.actor }}/students:latest
+            tags: ivt202ipp/students:latest
